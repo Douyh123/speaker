@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 构建产物（npm run build 可重新生成）
+dist/
+
+# 本地工具与编辑器状态
+.claude/
+.gstack/
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*

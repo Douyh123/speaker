@@ -1,0 +1,13 @@
+# 仓库内统一存 LF，检出时按平台
+* text=auto
+
+# 批处理文件必须 CRLF —— 用 LF 会让 cmd.exe 解析崩溃
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
